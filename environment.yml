@@ -1,0 +1,17 @@
+# Binder / repo2docker environment for the six-mode Biogeme exercise.
+# Place this file at the ROOT of https://github.com/BoWang8828/discrete_choice
+name: biogeme-choice
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - openpyxl
+  - pip:
+      - biogeme==3.3.5
